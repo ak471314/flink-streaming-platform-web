@@ -144,6 +144,7 @@ public class CliConfigUtil {
         options.addOption("ytm", false, "");
         options.addOption("ys", false, "");
         options.addOption("yD", false, "");
+        options.addOption("s", false, "");
         options.addOption(SystemConstants.YQU, true, "");
         CommandLineParser parser = new DefaultParser();
         return parser.parse(options, config);
